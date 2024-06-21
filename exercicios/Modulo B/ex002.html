@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>aprendendo javascript</title>
+    <style>
+        body{
+            background-color: black;
+            font-size: 2em;
+        }
+        h1 {
+            color: rgb(241, 225, 1);
+        }
+        p{
+            color: white;
+        }
+    </style>
+    
 </head>
 <body>
-    
+    <h1>Olá, mundo!</h1>
+    <p>já me livrei da maldição!</p>
+    <script> 
+        var n1 = Number(window.prompt("fale um numero: " )) // Number.parseFloat() converte a string para um número
+        var n2 = Number(window.prompt("outro numero: "))
+        var soma = n1 + n2 
+
+
+
+        window.alert(`a soma entre ${n1} e ${n2} é igual a ${soma}`) // .toString = transforma a "soma" que é um numero, para uma string  ou string(soma)
+</script>
 </body>
 </html>
