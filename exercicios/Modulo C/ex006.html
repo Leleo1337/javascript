@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventos DOM</title>
+    <style>
+        .div-container{
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+        }
+
+        div#area{
+            font: normal 20pt Arial;
+
+            background-color: green;
+            color: white;
+
+            height: 200px;
+            width: 200px;
+            padding: 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="div-container">
+            <div id="area" onclick="trocaCor()" onmouseenter="entrar()" onmouseout="sair()">
+                passe o mouse em cima!
+            </div>
+        </div>
+
+    <script>
+        var area = document.getElementById('area')
+
+        function trocaCor(){
+            area.style.background = 'blue'
+            area.innerText = 'trocou de cor!'
+        }
+
+    
+        function entrar(){
+            area.style.backgroundColor = 'lightgreen'
+            area.style.color = 'black'
+            area.innerText = 'o mouse entrou (agora clique)'
+        }
+
+        function sair(){
+            area.innerText = 'o mouse saiu 😭'
+            area.style.backgroundColor = 'lightblue'
+
+        }
+    </script>
+</body>
+</html>
