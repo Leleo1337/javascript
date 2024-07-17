@@ -5,7 +5,7 @@ function verificar(){
     var res = document.querySelector('.txt')
     var img = document.querySelector('#img')
 
-    if (fano.value == 0 || Number(fano.value) > ano){
+    if (fano.value < 0 || Number(fano.value) > ano){
         window.alert('[ERRO] verifique os dados e tente novamente')
     }else{
         var fsex = document.getElementsByName('radsex')
@@ -28,9 +28,10 @@ function verificar(){
                 //jovem
                 img.src = 'img/homem-jovem.png'
             }
-            if (idade >= 65 && idade < 125){
+            if (idade >= 65 && idade <= 125){
                 img.src = 'img/homem-idoso.png'
             }
+
         } else {
             genero = 'mulher'
             if (idade >= 0 && idade <= 10){
@@ -42,9 +43,10 @@ function verificar(){
             if(idade >= 18 && idade < 65){
                 img.src = 'img/mulher-jovem.png'
             }
-            if (idade >= 65 && idade < 125){
+            if (idade >= 65 && idade <= 125){
                 img.src = 'img/mulher-idosa.png'
             }
+
         }
     }
     
