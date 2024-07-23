@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(131, 208, 253);
+    font: normal 15pt Arial;
+}
+
+header{
+    text-align: center;
+    color: rgb(245, 245, 245);
+}
+
+main{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 15px;
+
+   
+    background-color: white;
+    border-radius: 10px;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    
+}
+
+p{
+    text-align: center;
+}
+
+.tabuada{
+    width: 300px;
+    height: 250px;
+    background-color: lightgrey;
+
+    margin-top: 30px;
+
+    overflow-y: scroll;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    color: rgb(245, 245, 245);
+}

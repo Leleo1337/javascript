@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="d003.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <main>
+        <div>
+            <p>
+                <label for="ini">Inicio: </label>
+                <input type="number" id="ini" >
+            </p>
+            <p>
+                <label for="fim">Fim: </label>
+                <input type="number" id="fim">
+            </p>
+            <p>
+                <label for="passo">passo</label>
+                <input type="number" id="passo">
+            </p>
+            <input type="button" value="Contar" onclick="contar()">
+        </div>
+        <div id="msg">
+            
+        </div>
+    </main>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="d003.js"></script>
+</body>
+</html>
