@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+*{
+    padding: 0px;
+    
+}
 body{
     background-color: rgb(131, 208, 253);
     font: normal 15pt Arial;
@@ -19,8 +23,20 @@ main{
    
     background-color: white;
     border-radius: 10px;   
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
-    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);    
+}
+input[type="button"]{
+    width: 230px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid rgb(95, 253, 253);
+    border-radius: 20px;
+}
+
+input[type="button"]:hover{
+    background-color: rgb(99, 207, 207);
+    color: white;
+    cursor: pointer;
 }
 
 p{
@@ -28,14 +44,18 @@ p{
 }
 
 .tabuada{
-    width: 300px;
+    width: 250px;
     height: 250px;
-    background-color: lightgrey;
-
+    background-color: rgb(243, 243, 243);
+    border: 1px solid black;
     margin-top: 30px;
 
     overflow-y: scroll;
 }
+ul{
+    padding-left: 20px;
+}
+
 
 footer{
     font-style: italic;
