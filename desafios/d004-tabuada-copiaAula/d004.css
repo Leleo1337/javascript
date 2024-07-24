@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    
+}
+body{
+    background-color: rgb(131, 208, 253);
+    font: normal 15pt Arial;
+}
+
+header{
+    text-align: center;
+    color: rgb(245, 245, 245);
+}
+
+main{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 15px;
+
+   
+    background-color: white;
+    border-radius: 10px;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);    
+}
+
+select{
+    width: 300px;
+}
+
+
+
+footer{
+    font-style: italic;
+    text-align: center;
+    color: rgb(245, 245, 245);
+}
