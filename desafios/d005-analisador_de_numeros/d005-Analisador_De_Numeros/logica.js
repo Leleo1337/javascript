@@ -1,4 +1,4 @@
-let vetor = [5,10,2]
+let vetor = [3,15,5]
 function final(){
     console.log(`ao todo temos ${vetor.length} numeros`)
     vetor.sort((a, b) => a - b)

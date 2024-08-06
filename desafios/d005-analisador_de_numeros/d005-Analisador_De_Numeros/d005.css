@@ -63,6 +63,7 @@ input[type="button"]#reini{
 ul > li {
     position: relative;
     bottom: 25px;
+
     font-size: 16px;
 }
 
@@ -74,8 +75,8 @@ ul > p {
     padding-bottom: 5px;
 }
 
-br{
-    padding: 10px;
+div#res{
+    padding-top: 20px;
 }
 
 footer{
