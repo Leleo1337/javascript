@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador  </title>
+    <link rel="stylesheet" href="d005.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Numberos</h1>
+    </header>
+    <main>
+        <div>
+            <label for="numero">Numero (entre 0 a 100)</label>
+            <input type="number" id="numero">
+            <input type="button" value="adicionar" id="adc" onclick="adicionar()">
+        </div>
+        <div class="lista">
+            <ul id="list">
+                <p>Digite um numero acima.</p>
+            </ul>
+        </div>
+        <input type="button" value="finalizar" id="final" onclick="finalizar()"> <br>
+        <input type="button" value="reiniciar" id="reini" onclick="reiniciar()"> 
+        <div id="res"></div>
+    </main>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="d005.js"></script>
+</body>
+</html>

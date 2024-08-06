@@ -2,8 +2,6 @@
 
 
 
-
-
 let num = [5,7,3,2,6]
 num.push(1)
 num.sort()
